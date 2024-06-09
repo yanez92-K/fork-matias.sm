@@ -1,0 +1,38 @@
+body {
+    font-family: "Merriweather", serif;
+}
+.foto{
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+.paddingLados{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+@media (max-width: 1200px){
+    .paddingLados{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .foto{
+        height: 150px;
+    }
+}
+@media (max-width: 730px){
+    .paddingLados{
+        padding-left: 0px;
+        padding-right: 0px;
+    } 
+    .foto{
+        height: 100px;
+    }
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+  }
